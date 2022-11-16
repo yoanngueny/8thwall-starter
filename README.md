@@ -1,1 +1,1 @@
-# 8thwall Starter
+# 8thWall Starter
