@@ -1,10 +1,15 @@
-
+import { motion } from "framer-motion"
 
 function App() {
   return (
-    <div className="container mx-auto">
+    <motion.div
+      className="container mx-auto"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+    >
       Hello world!
-    </div>
+    </motion.div>
   )
 }
 
